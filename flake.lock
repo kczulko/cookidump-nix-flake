@@ -1,0 +1,59 @@
+{
+  "nodes": {
+    "cookidumpSrc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1675840241,
+        "narHash": "sha256-Gm2ulNrfrB4wZ3SlSVLFK3bTXOtSbhPHN81057wln8o=",
+        "owner": "auino",
+        "repo": "cookidump",
+        "rev": "104f55e7ca30aff97b278432f2a3fc45a8061bf1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "auino",
+        "repo": "cookidump",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1675941535,
+        "narHash": "sha256-0VGfHZP1JJcc/JwZgq62EIjlue1QdFosCqmy5mO4qzc=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "290f8e30473d3778b89cdadef38671b76cc7b9cf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "cookidumpSrc": "cookidumpSrc",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
