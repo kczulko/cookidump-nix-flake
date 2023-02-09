@@ -7,7 +7,7 @@ Since the [cookidump author has removed existing nix flake from the mainline](ht
 ## Usage
 
 ```
-nix run github:auino/cookidump -- <outputdir> [--separate-json]
+nix run github:kczulko/cookidump-nix-flake -- <outputdir> [--separate-json]
 ```
 
 Nix provisions `google-chrome` together with `chromedriver`. Only 
